@@ -1,0 +1,11 @@
+ResourceNotFoundError: /monstermonster.png?size=80 does not exist
+    at Router.find (/usr/src/app/node_modules/restify/lib/router.js:504:14)
+    at Server._route (/usr/src/app/node_modules/restify/lib/server.js:612:17)
+    at routeAndRun (/usr/src/app/node_modules/restify/lib/server.js:571:14)
+    at Server._handle (/usr/src/app/node_modules/restify/lib/server.js:591:9)
+    at Server.onRequest (/usr/src/app/node_modules/restify/lib/server.js:255:14)
+    at Server.emit (events.js:110:17)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)
+    at Socket.socketOnData (_http_server.js:343:22)
+    at Socket.emit (events.js:107:17)
